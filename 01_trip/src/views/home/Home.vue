@@ -1,13 +1,16 @@
 <script setup>
-
+import NavBar from './cpns/NavBar.vue';
+import Banner from './cpns/Banner.vue'
+import SearchBox from './cpns/SearchBox.vue'
 </script>
 
 <template>
   <div class="home">
-    <h2>home</h2>
+    <NavBar />
+    <Banner />
+    <SearchBox />
   </div>
 </template>
 
 <style lang="less" scoped>
-
 </style>
